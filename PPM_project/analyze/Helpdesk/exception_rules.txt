@@ -1,0 +1,245 @@
+﻿Dataset: Helpdesk
+Error threshold (theta_err): 0.50
+Minimum support ratio: 0.0050
+Visualization edge cutoff: <= 5.00% hidden
+Number of selected exception rules: 16
+
+==============================================================================
+Rule 1
+Target activity: Take in charge ticket
+Error rate: 0.961538 (96.15%)
+Error events: 25
+Total events in leaf: 26
+Number of unique cases: 26
+Decision-tree leaf ID: 43
+Sub-process model: sub_process_models/sub_process_model_001.png
+Condition:
+IF 【product_Value 1】 である AND
+         【seriousness_2_Value 1】 である AND
+         【Resource_Value 3】 である AND
+         【service_level_Value 2】 ではない
+
+==============================================================================
+Rule 2
+Target activity: Wait
+Error rate: 0.956522 (95.65%)
+Error events: 22
+Total events in leaf: 23
+Number of unique cases: 20
+Decision-tree leaf ID: 14
+Sub-process model: sub_process_models/sub_process_model_002.png
+Condition:
+IF 【product_Value 3】 ではない AND
+         【Resource_Value 8】 である AND
+         【product_Value 1】 ではない
+
+==============================================================================
+Rule 3
+Target activity: Wait
+Error rate: 0.896552 (89.66%)
+Error events: 26
+Total events in leaf: 29
+Number of unique cases: 22
+Decision-tree leaf ID: 19
+Sub-process model: sub_process_models/sub_process_model_003.png
+Condition:
+IF 【product_Value 3】 である AND
+         【service_type_Value 2】 ではない AND
+         【Resource_Value 9】 ではない AND
+         【responsible_section_Value 1】 ではない
+
+==============================================================================
+Rule 4
+Target activity: Wait
+Error rate: 0.866667 (86.67%)
+Error events: 26
+Total events in leaf: 30
+Number of unique cases: 28
+Decision-tree leaf ID: 15
+Sub-process model: sub_process_models/sub_process_model_004.png
+Condition:
+IF 【product_Value 3】 ではない AND
+         【Resource_Value 8】 である AND
+         【product_Value 1】 である
+
+==============================================================================
+Rule 5
+Target activity: Wait
+Error rate: 0.827586 (82.76%)
+Error events: 24
+Total events in leaf: 29
+Number of unique cases: 26
+Decision-tree leaf ID: 25
+Sub-process model: sub_process_models/sub_process_model_005.png
+Condition:
+IF 【product_Value 3】 である AND
+         【service_type_Value 2】 ではない AND
+         【Resource_Value 9】 である AND
+         【seriousness_2_Value 2】 である
+
+==============================================================================
+Rule 6
+Target activity: Wait
+Error rate: 0.826087 (82.61%)
+Error events: 114
+Total events in leaf: 138
+Number of unique cases: 116
+Decision-tree leaf ID: 22
+Sub-process model: sub_process_models/sub_process_model_006.png
+Condition:
+IF 【product_Value 3】 である AND
+         【service_type_Value 2】 ではない AND
+         【Resource_Value 9】 ではない AND
+         【responsible_section_Value 1】 である AND
+         【service_level_Value 2】 である
+
+==============================================================================
+Rule 7
+Target activity: Wait
+Error rate: 0.785714 (78.57%)
+Error events: 22
+Total events in leaf: 28
+Number of unique cases: 22
+Decision-tree leaf ID: 28
+Sub-process model: sub_process_models/sub_process_model_007.png
+Condition:
+IF 【product_Value 3】 である AND
+         【service_type_Value 2】 である AND
+         【customer_Value 35】 ではない AND
+         【workgroup_Value 2】 ではない
+
+==============================================================================
+Rule 8
+Target activity: Wait
+Error rate: 0.760000 (76.00%)
+Error events: 38
+Total events in leaf: 50
+Number of unique cases: 42
+Decision-tree leaf ID: 21
+Sub-process model: sub_process_models/sub_process_model_008.png
+Condition:
+IF 【product_Value 3】 である AND
+         【service_type_Value 2】 ではない AND
+         【Resource_Value 9】 ではない AND
+         【responsible_section_Value 1】 である AND
+         【service_level_Value 2】 ではない
+
+==============================================================================
+Rule 9
+Target activity: Wait
+Error rate: 0.709677 (70.97%)
+Error events: 22
+Total events in leaf: 31
+Number of unique cases: 27
+Decision-tree leaf ID: 7
+Sub-process model: sub_process_models/sub_process_model_009.png
+Condition:
+IF 【product_Value 3】 ではない AND
+         【Resource_Value 8】 ではない AND
+         【seriousness_2_Value 1】 ではない AND
+         【service_level_Value 2】 である AND
+         【Resource_Value 9】 である
+
+==============================================================================
+Rule 10
+Target activity: Take in charge ticket
+Error rate: 0.702703 (70.27%)
+Error events: 52
+Total events in leaf: 74
+Number of unique cases: 74
+Decision-tree leaf ID: 44
+Sub-process model: sub_process_models/sub_process_model_010.png
+Condition:
+IF 【product_Value 1】 である AND
+         【seriousness_2_Value 1】 である AND
+         【Resource_Value 3】 である AND
+         【service_level_Value 2】 である
+
+==============================================================================
+Rule 11
+Target activity: Wait
+Error rate: 0.693878 (69.39%)
+Error events: 34
+Total events in leaf: 49
+Number of unique cases: 40
+Decision-tree leaf ID: 30
+Sub-process model: sub_process_models/sub_process_model_011.png
+Condition:
+IF 【product_Value 3】 である AND
+         【service_type_Value 2】 である AND
+         【customer_Value 35】 ではない AND
+         【workgroup_Value 2】 である AND
+         【customer_Value 8】 ではない
+
+==============================================================================
+Rule 12
+Target activity: Take in charge ticket
+Error rate: 0.640000 (64.00%)
+Error events: 16
+Total events in leaf: 25
+Number of unique cases: 22
+Decision-tree leaf ID: 20
+Sub-process model: sub_process_models/sub_process_model_012.png
+Condition:
+IF 【product_Value 1】 ではない AND
+         【Resource_Value 9】 である AND
+         【service_type_Value 2】 ではない AND
+         【customer_Value 22】 である
+
+==============================================================================
+Rule 13
+Target activity: Take in charge ticket
+Error rate: 0.609023 (60.90%)
+Error events: 81
+Total events in leaf: 133
+Number of unique cases: 122
+Decision-tree leaf ID: 38
+Sub-process model: sub_process_models/sub_process_model_013.png
+Condition:
+IF 【product_Value 1】 である AND
+         【seriousness_2_Value 1】 である AND
+         【Resource_Value 3】 ではない AND
+         【Resource_Value 5】 ではない AND
+         【Resource_Value 9】 である
+
+==============================================================================
+Rule 14
+Target activity: Wait
+Error rate: 0.571429 (57.14%)
+Error events: 20
+Total events in leaf: 35
+Number of unique cases: 29
+Decision-tree leaf ID: 24
+Sub-process model: sub_process_models/sub_process_model_014.png
+Condition:
+IF 【product_Value 3】 である AND
+         【service_type_Value 2】 ではない AND
+         【Resource_Value 9】 である AND
+         【seriousness_2_Value 2】 ではない
+
+==============================================================================
+Rule 15
+Target activity: Take in charge ticket
+Error rate: 0.520833 (52.08%)
+Error events: 25
+Total events in leaf: 48
+Number of unique cases: 28
+Decision-tree leaf ID: 14
+Sub-process model: sub_process_models/sub_process_model_015.png
+Condition:
+IF 【product_Value 1】 ではない AND
+         【Resource_Value 9】 ではない AND
+         【product_Value 3】 である AND
+         【service_type_Value 3】 である
+
+==============================================================================
+Rule 16
+Target activity: Create SW anomaly
+Error rate: 0.512821 (51.28%)
+Error events: 20
+Total events in leaf: 39
+Number of unique cases: 33
+Decision-tree leaf ID: 1
+Sub-process model: sub_process_models/sub_process_model_016.png
+Condition:
+IF 【product_Value 3】 ではない

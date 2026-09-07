@@ -1,0 +1,107 @@
+﻿Dataset: Hospital
+Error threshold (theta_err): 0.50
+Minimum support ratio: 0.0050
+Visualization edge cutoff: <= 5.00% hidden
+Number of selected exception rules: 7
+
+==============================================================================
+Rule 1
+Target activity: STORNO
+Error rate: 1.000000 (100.00%)
+Error events: 934
+Total events in leaf: 934
+Number of unique cases: 795
+Decision-tree leaf ID: 1
+Sub-process model: sub_process_models/sub_process_model_001.png
+Condition:
+IF 【state_Invoice rejected】 ではない
+
+==============================================================================
+Rule 2
+Target activity: CODE NOK
+Error rate: 1.000000 (100.00%)
+Error events: 1455
+Total events in leaf: 1455
+Number of unique cases: 1427
+Decision-tree leaf ID: 7
+Sub-process model: sub_process_models/sub_process_model_002.png
+Condition:
+IF 【msgCode___MISSING__】 ではない AND
+         【org:resource___MISSING__】 である
+
+==============================================================================
+Rule 3
+Target activity: NEW
+Error rate: 0.990123 (99.01%)
+Error events: 401
+Total events in leaf: 405
+Number of unique cases: 404
+Decision-tree leaf ID: 8
+Sub-process model: sub_process_models/sub_process_model_003.png
+Condition:
+IF 【caseType_B】 ではない AND
+         【isClosed___MISSING__】 ではない AND
+         【caseType_D】 ではない AND
+         【diagnosis___MISSING__】 である AND
+         【flagD_True】 ではない
+
+==============================================================================
+Rule 4
+Target activity: NEW
+Error rate: 0.964466 (96.45%)
+Error events: 33195
+Total events in leaf: 34418
+Number of unique cases: 34418
+Decision-tree leaf ID: 5
+Sub-process model: sub_process_models/sub_process_model_004.png
+Condition:
+IF 【caseType_B】 ではない AND
+         【isClosed___MISSING__】 ではない AND
+         【caseType_D】 ではない AND
+         【diagnosis___MISSING__】 ではない AND
+         【diagnosis_XC】 ではない
+
+==============================================================================
+Rule 5
+Target activity: NEW
+Error rate: 0.925902 (92.59%)
+Error events: 1437
+Total events in leaf: 1552
+Number of unique cases: 1552
+Decision-tree leaf ID: 26
+Sub-process model: sub_process_models/sub_process_model_005.png
+Condition:
+IF 【caseType_B】 である AND
+         【flagD_True】 ではない AND
+         【speciality_F】 ではない AND
+         【isClosed_True】 ではない AND
+         【speciality_D】 ではない
+
+==============================================================================
+Rule 6
+Target activity: CODE NOK
+Error rate: 0.750623 (75.06%)
+Error events: 301
+Total events in leaf: 401
+Number of unique cases: 283
+Decision-tree leaf ID: 17
+Sub-process model: sub_process_models/sub_process_model_006.png
+Condition:
+IF 【msgCode___MISSING__】 である AND
+         【version_B】 ではない AND
+         【actOrange___MISSING__】 である AND
+         【org:resource_ResIA】 ではない AND
+         【version_F】 ではない
+
+==============================================================================
+Rule 7
+Target activity: REJECT
+Error rate: 0.688450 (68.84%)
+Error events: 453
+Total events in leaf: 658
+Number of unique cases: 593
+Decision-tree leaf ID: 9
+Sub-process model: sub_process_models/sub_process_model_007.png
+Condition:
+IF 【state_Rejected】 ではない AND
+         【org:resource___MISSING__】 である
